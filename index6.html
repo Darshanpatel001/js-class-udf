@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         const swap = () => {
+            let x = parseInt(prompt("enter number X"));
+            let y = parseInt(prompt("enter number y"));
+
+            console.log(`befor Swapping:  X = ${x} , Y = ${y}<br>`);
+
+            [x, y] = [y, x];
+
+            console.log(`After Swapping:  X = ${x} , Y = ${y}`);
+        };
+
+        swap();
+    </script>
+</body>
+</html>

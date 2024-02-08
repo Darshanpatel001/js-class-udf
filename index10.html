@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+           let age = parseInt(prompt("enter age and chek eligible for voting"));
+        console.log("AGE = "+age+"<br>");
+
+        const voting = (age) => {
+            let check = (age >= 18) ? "You are eligible for voting" : "Sorry!" ;
+            console.log(check);
+        }
+
+        voting(age);
+    </script>
+</body>
+</html>
